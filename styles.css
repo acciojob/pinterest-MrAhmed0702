@@ -1,1 +1,46 @@
-/*  your css code here. If applicable */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero img {
+	object-fit: cover;
+	width:800px; 
+	height:300px;
+}
+
+button {
+	padding: 10px;
+	background-color: red;
+	color: white;
+	border-radius: 15px;
+	border: none;
+}
+
+.details {
+	width: 300px;
+	margin-left: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.details h1 {
+	font-size: 30px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+.details p {
+	font-size: 15px;
+	color: grey;
+	margin-bottom: 12px;
+	text-align: center;
+}
